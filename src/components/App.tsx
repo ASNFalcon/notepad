@@ -28,7 +28,7 @@ class App extends React.Component {
     this.todoListRef = element;
   }
   public gotoGithub(): void {
-    location.href = 'https://github.com/yhlben/notepad';
+    location.href = 'https://github.com/ASNFalcon/notepad';
   }
   public changeSettingPanel(): void  {
     this.setState({
@@ -87,7 +87,7 @@ class App extends React.Component {
               <SettingPanel showPanel={this.state.showPanel} changeSettingPanel={this.changeSettingPanel} todolistRef={this.todoListRef} dataTableRef={this.dataTableRef}></SettingPanel>
             </Content>
             <Footer className="footer">
-              Created by <a target="_blank" href="https://github.com/yhlben">yhlben</a> ©2018
+              Created by <a target="_blank" href="https://github.com/ASNFalcon">ASNFalcon</a> ©2018
         </Footer>
           </Layout>
         </div>
